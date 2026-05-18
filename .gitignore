@@ -1,0 +1,13 @@
+﻿.idea/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+.bundle-home/
+.jekyll-server*
+.static-server*.log
+.tmp/
+.local-site/
+script/

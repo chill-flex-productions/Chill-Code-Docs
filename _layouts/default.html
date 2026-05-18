@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="{{ '/' | relative_url }}">Chill Code</a>
+      <a href="{{ '/privacy-policy/' | relative_url }}">App Privacy</a>
+      <a href="{{ '/companion-privacy/' | relative_url }}">Plugin Privacy</a>
+      <a href="{{ '/companion-eula/' | relative_url }}">Plugin EULA</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    {{ content }}
+  </main>
+</body>
+</html>

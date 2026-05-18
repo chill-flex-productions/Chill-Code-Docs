@@ -1,0 +1,13 @@
+﻿title: Chill Code Docs
+description: Public policy documents for Chill Code and Chill Code Companion.
+url: "https://chill-flex-productions.github.io"
+baseurl: "/Chill-Code-Docs"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - vendor/
+  - script/
+  - .bundle/
+  - .bundle-home/
+  - .local-site/
+  - .tmp/
